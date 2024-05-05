@@ -1,0 +1,17 @@
+Ex.1
+
+ g++ -E program.cpp -o program.i
+ g++ -E swap.cpp -o swap.i
+ 
+ g++ -S program.i
+ g++ -S swap.i
+ 
+ g++ -c program.s
+ g++ -c swap.s
+ 
+ g++ program.o swap.o -o program
+ 
+ make
+ make clean
+
+
